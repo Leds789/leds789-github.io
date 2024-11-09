@@ -14,84 +14,78 @@ This site is where I plan to showcase my projects and learning
 
 I turned my old laptop into a home webserver. Installing ubuntu, setting up a media server, VPN, Pi-Hole for DNS and DHCP allocation. 
 
+- Tech Used
+  - Ubuntu / Docker / Pi-Hole / Wireguard 
+- Skills Learned
+    - Server Management / Network Setup / Firewall
+
 ## Education Projects
 
 *   Cert 4 CyberSecurity
 *   Cisco CCST networking
-*   CTF Completion writeups
+*   TryHackMe Courses 
 
 
-### Header 3
+### Write-Ups & CTFs
 
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
+*  PicoCTF
+*  OverTheWire
+*  HackThisSite
+
+### Technical SKills
+
+*  Networking: LAN/WAN Setup / ip config / firewalls
+*  Operating Systems: Windows / Linux / MacOS
+*  Tools: Wireshark / Metasploit / nMap / VMbox
+
+```python
+### Port Scanner (Python)
+This script scans a target IP for open ports, showcasing basic networking skills.
+
+import socket
+
+def port_scanner(target, ports):
+    print(f"Scanning {target} for open ports...")
+    for port in ports:
+        sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+        sock.settimeout(1)
+        result = sock.connect_ex((target, port))
+        if result == 0:
+            print(f"Port {port} is open")
+        sock.close()
+
+# Example usage
+target_ip = '192.168.1.1'
+port_list = [22, 80, 443]
+port_scanner(target_ip, port_list)
+
 ```
 
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
+```python
+### Password Hashing Script
+
+import hashlib
+
+# This function generates a SHA-256 hash for a given password.
+def hash_password(password):
+    return hashlib.sha256(password.encode()).hexdigest()
+
+# Example usage of hashing
+original = "my_password"
+hashed = hash_password(original)
+print("Hashed password:", hashed)
+
+# Function to compare a given password with a stored hash
+def compare_passwords(password, hashed):
+    return hash_password(password) == hashed
+
+# Example usage of comparison
+print("Password match:", compare_passwords("my_password", hashed))  # True
+print("Password match:", compare_passwords("wrong_password", hashed))  # False
+
 ```
-
-#### Header 4
-
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-##### Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
 
 * * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
 
 ### Small image
 
