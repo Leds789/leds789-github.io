@@ -2,13 +2,13 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, ~~strikethrough~~ or `keyword`.
+Hello, world!
+
+I am Matthew, a cybersec student and professional chef with a strong passion for computer science and hand-on learning. My journey has taken me from cooking to the world of IT where I'm currently trying to build my skills and certs up and hoping to eventually work in IT.
+
+This site is where I plan to showcase my projects and learning 
 
 [LedsLabs.com](https://ledslabs.com/)
-
-There should be whitespace between paragraphs.
-
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
 
 # My Home Server
 
@@ -16,7 +16,6 @@ I turned my old laptop into a home webserver. Installing ubuntu, setting up a me
 
 ## Education Projects
 
-> When something is important enough, you do it even if the odds are not in your favor.
 *   Cert 4 CyberSecurity
 *   Cisco CCST networking
 *   CTF Completion writeups
@@ -100,21 +99,10 @@ end
 
 ### Large image
 
-![Branching](image1.jpg)
+![Branching]
 
 
-### Definition lists can be used with HTML syntax.
 
-<dl
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
 
 ```
 Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
