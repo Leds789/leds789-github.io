@@ -4,7 +4,7 @@ layout: default
 
 Text can be **bold**, _italic_, ~~strikethrough~~ or `keyword`.
 
-LedsLabs.com(https://ledslabs.com/)
+[LedsLabs.com](https://ledslabs.com/)
 
 There should be whitespace between paragraphs.
 
