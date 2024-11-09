@@ -4,21 +4,23 @@ layout: default
 
 Text can be **bold**, _italic_, ~~strikethrough~~ or `keyword`.
 
-[Link to another page](./another-page.html).
+LedsLabs.com(https://ledslabs.com/)
 
 There should be whitespace between paragraphs.
 
 There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
 
-# Header 1
+# My Home Server
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+I turned my old laptop into a home webserver. Installing ubuntu, setting up a media server, VPN, Pi-Hole for DNS and DHCP allocation. 
 
-## Header 2
+## Education Projects
 
-> This is a blockquote following a header.
->
 > When something is important enough, you do it even if the odds are not in your favor.
+*   Cert 4 CyberSecurity
+*   Cisco CCST networking
+*   CTF Completion writeups
+
 
 ### Header 3
 
