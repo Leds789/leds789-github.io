@@ -41,7 +41,7 @@ I turned my old laptop into a home webserver. Installing ubuntu, setting up a me
 
 ```python
 ### Port Scanner (Python)
-This script scans a target IP for open ports, showcasing basic networking skills.
+This script scans a target IP for open ports.
 
 import socket
 
