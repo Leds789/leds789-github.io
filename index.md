@@ -19,6 +19,10 @@ I turned my old laptop into a home webserver. Installing ubuntu, setting up a me
   - Ubuntu / Docker / Pi-Hole / Wireguard 
 - Skills Learned
     - Server Management / Network Setup / Firewall
+ 
+# Malware Analysis
+
+Set up a malware analysis lab with FlareVM and REMnux. Used to analyze legacy malware. First one I completed was on the Zeus banking Trojan Horse the full notes can be found [here](https://github.com/Leds789/leds789.github.io/tree/main/Malware%20Analysis)
 
 ## Education Projects
 
